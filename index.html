@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="result">
+            <button id="clr" onclick="screenClear()">AC</button>
+            <button id="del" onclick="lastDigit()">DEL</button>
+            <button id="mod" onclick="displayNum('%')">%</button>
+            <button id="div" onclick="displayNum('/')">/</button>
+            <button id="seven" onclick="displayNum(7)">7</button>
+            <button id="eight" onclick="displayNum(8)">8</button>
+            <button id="nine" onclick="displayNum(9)">9</button>
+            <button id="multi" onclick="displayNum('*')">*</button>
+            <button id="four" onclick="displayNum(4)">4</button>
+            <button id="five" onclick="displayNum(5)">5</button>
+            <button id="six" onclick="displayNum(6)">6</button>
+            <button id="sub" onclick="displayNum('-')">-</button>
+            <button id="one" onclick="displayNum(1)">1</button>
+            <button id="two" onclick="displayNum(2)">2</button>
+            <button id="three" onclick="displayNum(3)">3</button>
+            <button id="add" onclick="displayNum('+')">+</button>
+            <button id="dot" onclick="displayNum('.')">.</button>
+            <button id="zero" onclick="displayNum(0)">0</button>
+            <button id="equa" onclick="evaluateExp()" class="equal">=</button>
+            
+            
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
